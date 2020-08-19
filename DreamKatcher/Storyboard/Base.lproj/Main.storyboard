@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SAi-Fu-rJV">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+    </dependencies>
+    <scenes>
+        <!--Feed Page View Controller-->
+        <scene sceneID="xCr-9d-Pz8">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="vertical" spineLocation="none" id="SAi-Fu-rJV" customClass="DKFeedPageViewController" customModule="DreamKatcher" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PW5-Bc-M3i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="357" y="5"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="IQO-N6-Q71">
+            <objects>
+                <avPlayerViewController storyboardIdentifier="DKFeedViewController" videoGravity="AVLayerVideoGravityResizeAspect" id="8PU-bB-RIa" customClass="DKFeedViewController" customModule="DreamKatcher" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TYP-a2-oNI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1150" y="-3"/>
+        </scene>
+    </scenes>
+</document>
