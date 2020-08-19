@@ -3,6 +3,8 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Feed Page View Controller-->
@@ -20,6 +22,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TYP-a2-oNI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1150" y="-3"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="lW2-uA-sRK">
+            <objects>
+                <viewController storyboardIdentifier="DKImageViewController" id="1EG-VS-fKZ" customClass="DKImageViewController" customModule="DreamKatcher" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M08-us-jcO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GGW-Kr-zZZ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GGW-Kr-zZZ" firstAttribute="leading" secondItem="dPg-a7-7xX" secondAttribute="leading" id="3eM-6R-0yA"/>
+                            <constraint firstItem="dPg-a7-7xX" firstAttribute="trailing" secondItem="GGW-Kr-zZZ" secondAttribute="trailing" id="Ba8-9a-X3M"/>
+                            <constraint firstItem="GGW-Kr-zZZ" firstAttribute="top" secondItem="dPg-a7-7xX" secondAttribute="top" id="gzS-uy-5Sx"/>
+                            <constraint firstItem="dPg-a7-7xX" firstAttribute="bottom" secondItem="GGW-Kr-zZZ" secondAttribute="bottom" id="xCK-uF-oe4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dPg-a7-7xX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KdR-HN-PsT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1909" y="-17"/>
         </scene>
     </scenes>
 </document>

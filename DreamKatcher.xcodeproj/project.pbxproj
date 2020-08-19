@@ -11,6 +11,8 @@
 		180F9DE624EDAAE800AD1723 /* DKFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F9DE524EDAAE800AD1723 /* DKFeedViewController.swift */; };
 		180F9DE824EDACBE00AD1723 /* StoryboardHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F9DE724EDACBE00AD1723 /* StoryboardHelpers.swift */; };
 		180F9DEA24EDAE8C00AD1723 /* DKFeedPagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F9DE924EDAE8C00AD1723 /* DKFeedPagePresenter.swift */; };
+		180F9DEC24EDBDE300AD1723 /* DKImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F9DEB24EDBDE300AD1723 /* DKImageViewController.swift */; };
+		180F9DEF24EDBEAB00AD1723 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 180F9DEE24EDBEAB00AD1723 /* SDWebImage */; };
 		186608B724ED92CB0091EF21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186608B624ED92CB0091EF21 /* AppDelegate.swift */; };
 		186608B924ED92CB0091EF21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186608B824ED92CB0091EF21 /* SceneDelegate.swift */; };
 		186608BE24ED92CB0091EF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186608BC24ED92CB0091EF21 /* Main.storyboard */; };
@@ -59,6 +61,7 @@
 		180F9DE524EDAAE800AD1723 /* DKFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKFeedViewController.swift; sourceTree = "<group>"; };
 		180F9DE724EDACBE00AD1723 /* StoryboardHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardHelpers.swift; sourceTree = "<group>"; };
 		180F9DE924EDAE8C00AD1723 /* DKFeedPagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKFeedPagePresenter.swift; sourceTree = "<group>"; };
+		180F9DEB24EDBDE300AD1723 /* DKImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKImageViewController.swift; sourceTree = "<group>"; };
 		186608B324ED92CB0091EF21 /* DreamKatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamKatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186608B624ED92CB0091EF21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		186608B824ED92CB0091EF21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +98,7 @@
 			files = (
 				186608ED24ED940B0091EF21 /* Alamofire in Frameworks */,
 				186608F324ED94540091EF21 /* SASLogger in Frameworks */,
+				180F9DEF24EDBEAB00AD1723 /* SDWebImage in Frameworks */,
 				186608F024ED94340091EF21 /* APILib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +216,7 @@
 				180F9DE324EDAA2900AD1723 /* DKFeedPageViewController.swift */,
 				180F9DE524EDAAE800AD1723 /* DKFeedViewController.swift */,
 				180F9DE924EDAE8C00AD1723 /* DKFeedPagePresenter.swift */,
+				180F9DEB24EDBDE300AD1723 /* DKImageViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 				186608EC24ED940B0091EF21 /* Alamofire */,
 				186608EF24ED94340091EF21 /* APILib */,
 				186608F224ED94540091EF21 /* SASLogger */,
+				180F9DEE24EDBEAB00AD1723 /* SDWebImage */,
 			);
 			productName = DreamKatcher;
 			productReference = 186608B324ED92CB0091EF21 /* DreamKatcher.app */;
@@ -338,6 +344,7 @@
 				186608EB24ED940B0091EF21 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				186608EE24ED94340091EF21 /* XCRemoteSwiftPackageReference "APILib" */,
 				186608F124ED94540091EF21 /* XCRemoteSwiftPackageReference "SASLogger" */,
+				180F9DED24EDBEAB00AD1723 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 186608B424ED92CB0091EF21 /* Products */;
 			projectDirPath = "";
@@ -385,6 +392,7 @@
 				180F9DEA24EDAE8C00AD1723 /* DKFeedPagePresenter.swift in Sources */,
 				180F9DE824EDACBE00AD1723 /* StoryboardHelpers.swift in Sources */,
 				1866091F24ED980A0091EF21 /* User.swift in Sources */,
+				180F9DEC24EDBDE300AD1723 /* DKImageViewController.swift in Sources */,
 				180F9DE624EDAAE800AD1723 /* DKFeedViewController.swift in Sources */,
 				1866091524ED97280091EF21 /* NSObject+Ext.swift in Sources */,
 				186608EA24ED93250091EF21 /* APILibrary.swift in Sources */,
@@ -732,6 +740,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		180F9DED24EDBEAB00AD1723 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.4;
+			};
+		};
 		186608EB24ED940B0091EF21 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -759,6 +775,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		180F9DEE24EDBEAB00AD1723 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 180F9DED24EDBEAB00AD1723 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
 		186608EC24ED940B0091EF21 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 186608EB24ED940B0091EF21 /* XCRemoteSwiftPackageReference "Alamofire" */;
