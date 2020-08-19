@@ -38,7 +38,7 @@ class DKImageViewController: UIViewController, StoryboardProtocol {
         
         guard let urlStr = feed.formatted_data?.image else {return}
         
-        print("urlStr = \(urlStr)")
+        print("MEga - ImageURL = \(urlStr)")
         
         imgView.sd_setImage(with: URL(string: urlStr)) { (img, error, cache, url) in
             

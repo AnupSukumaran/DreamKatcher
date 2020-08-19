@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		145C07BBDE24315FFDDBF5A1 /* Pods_DreamKatcher_DreamKatcherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4B3B2FF00E5D08752E9876 /* Pods_DreamKatcher_DreamKatcherUITests.framework */; };
 		180F9DE424EDAA2900AD1723 /* DKFeedPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F9DE324EDAA2900AD1723 /* DKFeedPageViewController.swift */; };
 		180F9DE624EDAAE800AD1723 /* DKFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F9DE524EDAAE800AD1723 /* DKFeedViewController.swift */; };
 		180F9DE824EDACBE00AD1723 /* StoryboardHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F9DE724EDACBE00AD1723 /* StoryboardHelpers.swift */; };
@@ -37,6 +38,8 @@
 		1866092224ED980A0091EF21 /* Formatted_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866091B24ED98090091EF21 /* Formatted_data.swift */; };
 		1866092324ED980A0091EF21 /* New_formatted_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866091C24ED980A0091EF21 /* New_formatted_data.swift */; };
 		1866092424ED980A0091EF21 /* Profile_pic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866091D24ED980A0091EF21 /* Profile_pic.swift */; };
+		9B0E09A932A45BC43918FE09 /* Pods_DreamKatcherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9153BBED0F8FC0C8668E7596 /* Pods_DreamKatcherTests.framework */; };
+		B43DDFE80FE847E8ED408319 /* Pods_DreamKatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37F371F007CA45241F39341 /* Pods_DreamKatcher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0078C69662649D06BA113528 /* Pods-DreamKatcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamKatcher.debug.xcconfig"; path = "Target Support Files/Pods-DreamKatcher/Pods-DreamKatcher.debug.xcconfig"; sourceTree = "<group>"; };
 		180F9DE324EDAA2900AD1723 /* DKFeedPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKFeedPageViewController.swift; sourceTree = "<group>"; };
 		180F9DE524EDAAE800AD1723 /* DKFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKFeedViewController.swift; sourceTree = "<group>"; };
 		180F9DE724EDACBE00AD1723 /* StoryboardHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardHelpers.swift; sourceTree = "<group>"; };
@@ -89,6 +93,14 @@
 		1866091B24ED98090091EF21 /* Formatted_data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatted_data.swift; sourceTree = "<group>"; };
 		1866091C24ED980A0091EF21 /* New_formatted_data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = New_formatted_data.swift; sourceTree = "<group>"; };
 		1866091D24ED980A0091EF21 /* Profile_pic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile_pic.swift; sourceTree = "<group>"; };
+		3F6D7B22FC8BA24FC44F4BC5 /* Pods-DreamKatcher-DreamKatcherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamKatcher-DreamKatcherUITests.debug.xcconfig"; path = "Target Support Files/Pods-DreamKatcher-DreamKatcherUITests/Pods-DreamKatcher-DreamKatcherUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DD2A496F340859B62D94051 /* Pods-DreamKatcherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamKatcherTests.release.xcconfig"; path = "Target Support Files/Pods-DreamKatcherTests/Pods-DreamKatcherTests.release.xcconfig"; sourceTree = "<group>"; };
+		9153BBED0F8FC0C8668E7596 /* Pods_DreamKatcherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamKatcherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB4B3B2FF00E5D08752E9876 /* Pods_DreamKatcher_DreamKatcherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamKatcher_DreamKatcherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37F371F007CA45241F39341 /* Pods_DreamKatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamKatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44C57CAED802BB7E8008170 /* Pods-DreamKatcherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamKatcherTests.debug.xcconfig"; path = "Target Support Files/Pods-DreamKatcherTests/Pods-DreamKatcherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE97EB649445CD535016512A /* Pods-DreamKatcher-DreamKatcherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamKatcher-DreamKatcherUITests.release.xcconfig"; path = "Target Support Files/Pods-DreamKatcher-DreamKatcherUITests/Pods-DreamKatcher-DreamKatcherUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F7649254BD864799D70E7FAD /* Pods-DreamKatcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamKatcher.release.xcconfig"; path = "Target Support Files/Pods-DreamKatcher/Pods-DreamKatcher.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,7 @@
 				186608F324ED94540091EF21 /* SASLogger in Frameworks */,
 				180F9DEF24EDBEAB00AD1723 /* SDWebImage in Frameworks */,
 				186608F024ED94340091EF21 /* APILib in Frameworks */,
+				B43DDFE80FE847E8ED408319 /* Pods_DreamKatcher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0E09A932A45BC43918FE09 /* Pods_DreamKatcherTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				145C07BBDE24315FFDDBF5A1 /* Pods_DreamKatcher_DreamKatcherUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +142,8 @@
 				186608CC24ED92D30091EF21 /* DreamKatcherTests */,
 				186608D724ED92D30091EF21 /* DreamKatcherUITests */,
 				186608B424ED92CB0091EF21 /* Products */,
+				C6AE2FF8B8DB0320A2F70A80 /* Pods */,
+				2902B710F444D0A86B02B029 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -246,6 +263,29 @@
 			path = ActivityModel;
 			sourceTree = "<group>";
 		};
+		2902B710F444D0A86B02B029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C37F371F007CA45241F39341 /* Pods_DreamKatcher.framework */,
+				BB4B3B2FF00E5D08752E9876 /* Pods_DreamKatcher_DreamKatcherUITests.framework */,
+				9153BBED0F8FC0C8668E7596 /* Pods_DreamKatcherTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6AE2FF8B8DB0320A2F70A80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0078C69662649D06BA113528 /* Pods-DreamKatcher.debug.xcconfig */,
+				F7649254BD864799D70E7FAD /* Pods-DreamKatcher.release.xcconfig */,
+				3F6D7B22FC8BA24FC44F4BC5 /* Pods-DreamKatcher-DreamKatcherUITests.debug.xcconfig */,
+				EE97EB649445CD535016512A /* Pods-DreamKatcher-DreamKatcherUITests.release.xcconfig */,
+				D44C57CAED802BB7E8008170 /* Pods-DreamKatcherTests.debug.xcconfig */,
+				6DD2A496F340859B62D94051 /* Pods-DreamKatcherTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -253,9 +293,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 186608DD24ED92D30091EF21 /* Build configuration list for PBXNativeTarget "DreamKatcher" */;
 			buildPhases = (
+				D014CFF8DF0E68EC22FEDB98 /* [CP] Check Pods Manifest.lock */,
 				186608AF24ED92CB0091EF21 /* Sources */,
 				186608B024ED92CB0091EF21 /* Frameworks */,
 				186608B124ED92CB0091EF21 /* Resources */,
+				2932ACB3F38873A509E7CD44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,6 +318,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 186608E024ED92D30091EF21 /* Build configuration list for PBXNativeTarget "DreamKatcherTests" */;
 			buildPhases = (
+				59BF92A59D0C258127CAE012 /* [CP] Check Pods Manifest.lock */,
 				186608C524ED92D30091EF21 /* Sources */,
 				186608C624ED92D30091EF21 /* Frameworks */,
 				186608C724ED92D30091EF21 /* Resources */,
@@ -294,9 +337,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 186608E324ED92D30091EF21 /* Build configuration list for PBXNativeTarget "DreamKatcherUITests" */;
 			buildPhases = (
+				D9D58D085ED242EDF12DCDA5 /* [CP] Check Pods Manifest.lock */,
 				186608D024ED92D30091EF21 /* Sources */,
 				186608D124ED92D30091EF21 /* Frameworks */,
 				186608D224ED92D30091EF21 /* Resources */,
+				E6D78F3F9D43FAED64B1338F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -383,6 +428,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2932ACB3F38873A509E7CD44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DreamKatcher/Pods-DreamKatcher-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DreamKatcher/Pods-DreamKatcher-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DreamKatcher/Pods-DreamKatcher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59BF92A59D0C258127CAE012 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DreamKatcherTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D014CFF8DF0E68EC22FEDB98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DreamKatcher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9D58D085ED242EDF12DCDA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DreamKatcher-DreamKatcherUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6D78F3F9D43FAED64B1338F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DreamKatcher-DreamKatcherUITests/Pods-DreamKatcher-DreamKatcherUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DreamKatcher-DreamKatcherUITests/Pods-DreamKatcher-DreamKatcherUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DreamKatcher-DreamKatcherUITests/Pods-DreamKatcher-DreamKatcherUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		186608AF24ED92CB0091EF21 /* Sources */ = {
@@ -580,6 +728,7 @@
 		};
 		186608DE24ED92D30091EF21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0078C69662649D06BA113528 /* Pods-DreamKatcher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -598,6 +747,7 @@
 		};
 		186608DF24ED92D30091EF21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7649254BD864799D70E7FAD /* Pods-DreamKatcher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -616,6 +766,7 @@
 		};
 		186608E124ED92D30091EF21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44C57CAED802BB7E8008170 /* Pods-DreamKatcherTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -638,6 +789,7 @@
 		};
 		186608E224ED92D30091EF21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD2A496F340859B62D94051 /* Pods-DreamKatcherTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -660,6 +812,7 @@
 		};
 		186608E424ED92D30091EF21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6D7B22FC8BA24FC44F4BC5 /* Pods-DreamKatcher-DreamKatcherUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -680,6 +833,7 @@
 		};
 		186608E524ED92D30091EF21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE97EB649445CD535016512A /* Pods-DreamKatcher-DreamKatcherUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

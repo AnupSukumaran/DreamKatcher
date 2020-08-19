@@ -1,0 +1,6 @@
+framework module Pods_DreamKatcherTests {
+  umbrella header "Pods-DreamKatcherTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

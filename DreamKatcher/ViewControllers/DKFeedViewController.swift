@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 import AVKit
 import AVFoundation
+import SASLoaderPod
 
 class DKFeedViewController: AVPlayerViewController, StoryboardProtocol {
     
@@ -54,7 +55,7 @@ class DKFeedViewController: AVPlayerViewController, StoryboardProtocol {
         
         guard let urlStr = feed.formatted_data?.video, let url = URL(string: urlStr) else {return}
         
-        print("urlStr = \(urlStr)")
+        //print("MEga - VideoURL = = \(urlStr)")
         
         player = AVPlayer(url: url)
         isPlaying ? play() : nil

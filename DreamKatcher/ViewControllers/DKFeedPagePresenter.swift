@@ -9,6 +9,7 @@
 import Foundation
 import AVFoundation
 import SASLogger
+import SASLoaderPod
 
 typealias IndexedFeed = (feed: ResultsData, index: Int)
 
@@ -25,10 +26,11 @@ class DKFeedPagePresenter: FeedPagePresenterDelegate {
     fileprivate var fetcher: APILibraryDelegate
     fileprivate var activity: ActivityModel?
     fileprivate var currentFeedIndex = 0
-    
-    init(view: FeedPageViewDelegate, fetcher: APILibraryDelegate = APILibrary()) {
+    fileprivate var loader: LoaderView!
+    init(view: FeedPageViewDelegate, fetcher: APILibraryDelegate = APILibrary(), loader: LoaderView) {
         self.view = view
         self.fetcher = fetcher
+        self.loader = loader
     }
     
     func viewDidLoad() {
@@ -56,6 +58,7 @@ class DKFeedPagePresenter: FeedPagePresenterDelegate {
     fileprivate func fetchFeeds() {
        // view.startLoading()
         Logger.p("Loading...")
+        loader.startAnimating()
         fetcher.fetchFeeds()
     }
     
@@ -72,49 +75,21 @@ class DKFeedPagePresenter: FeedPagePresenterDelegate {
 
 extension DKFeedPagePresenter: FetchFeedDelegate {
     func feedFetchService(_ service: APILibraryDelegate, didFetchFeeds feeds: ActivityModel?, withError error: Error?) {
-        //view.stopLoading()
+        loader.stopAnimating()
+        
         Logger.p("Loading Completed")
         if let error = error {
             Logger.p("Error Here-241 = \(error.localizedDescription)")
-            //view.showMessage(error.localizedDescription)
             return
         }
         self.activity = feeds
         guard let initialFeed = self.activity?.results?.first else {
             Logger.p("Message Here-241 = No Availavle Video Feeds")
-            //view.showMessage("No Availavle Video Feeds")
             return
         }
         
         view.presentInitialFeed(initialFeed)
     }
     
-//    func feedFetchService(_ service: FeedFetchProtocol, didFetchFeeds feeds: ActivityModel?, withError error: Error?) {
-//        view.stopLoading()
-//        if let error = error {
-//            view.showMessage(error.localizedDescription)
-//            return
-//        }
-//        self.activity = feeds
-//        guard let initialFeed = self.activity?.results?.first else {
-//            view.showMessage("No Availavle Video Feeds")
-//            return
-//        }
-//        view.presentInitialFeed(initialFeed)
-//    }
-//
-    
-//    func feedFetchService(_ service: FeedFetchProtocol, didFetchFeeds feeds: [Feed], withError error: Error?) {
-//        view.stopLoading()
-//        if let error = error {
-//            view.showMessage(error.localizedDescription)
-//            return
-//        }
-//        self.feeds = feeds
-//        guard let initialFeed = self.feeds.first else {
-//            view.showMessage("No Availavle Video Feeds")
-//            return
-//        }
-//        view.presentInitialFeed(initialFeed)
-//    }
+
 }
