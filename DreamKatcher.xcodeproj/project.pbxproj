@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,6 @@
 		180F9DE824EDACBE00AD1723 /* StoryboardHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F9DE724EDACBE00AD1723 /* StoryboardHelpers.swift */; };
 		180F9DEA24EDAE8C00AD1723 /* DKFeedPagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F9DE924EDAE8C00AD1723 /* DKFeedPagePresenter.swift */; };
 		180F9DEC24EDBDE300AD1723 /* DKImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F9DEB24EDBDE300AD1723 /* DKImageViewController.swift */; };
-		180F9DEF24EDBEAB00AD1723 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 180F9DEE24EDBEAB00AD1723 /* SDWebImage */; };
 		186608B724ED92CB0091EF21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186608B624ED92CB0091EF21 /* AppDelegate.swift */; };
 		186608B924ED92CB0091EF21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186608B824ED92CB0091EF21 /* SceneDelegate.swift */; };
 		186608BE24ED92CB0091EF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186608BC24ED92CB0091EF21 /* Main.storyboard */; };
@@ -23,9 +22,6 @@
 		186608D924ED92D30091EF21 /* DreamKatcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186608D824ED92D30091EF21 /* DreamKatcherUITests.swift */; };
 		186608E924ED93250091EF21 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186608E724ED93250091EF21 /* Constants.swift */; };
 		186608EA24ED93250091EF21 /* APILibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186608E824ED93250091EF21 /* APILibrary.swift */; };
-		186608ED24ED940B0091EF21 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 186608EC24ED940B0091EF21 /* Alamofire */; };
-		186608F024ED94340091EF21 /* APILib in Frameworks */ = {isa = PBXBuildFile; productRef = 186608EF24ED94340091EF21 /* APILib */; };
-		186608F324ED94540091EF21 /* SASLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 186608F224ED94540091EF21 /* SASLogger */; };
 		1866090624ED952C0091EF21 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186608FD24ED952C0091EF21 /* Results.swift */; };
 		1866090724ED952C0091EF21 /* ModelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186608FE24ED952C0091EF21 /* ModelResponse.swift */; };
 		1866091324ED97280091EF21 /* SASSuperAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866091024ED97280091EF21 /* SASSuperAlert.swift */; };
@@ -39,6 +35,8 @@
 		1866092324ED980A0091EF21 /* New_formatted_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866091C24ED980A0091EF21 /* New_formatted_data.swift */; };
 		1866092424ED980A0091EF21 /* Profile_pic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866091D24ED980A0091EF21 /* Profile_pic.swift */; };
 		9B0E09A932A45BC43918FE09 /* Pods_DreamKatcherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9153BBED0F8FC0C8668E7596 /* Pods_DreamKatcherTests.framework */; };
+		9D924FB524F69104006C341C /* APILib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D924FB424F69104006C341C /* APILib.swift */; };
+		9D924FB824F6912C006C341C /* SASLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D924FB724F6912C006C341C /* SASLogger.swift */; };
 		B43DDFE80FE847E8ED408319 /* Pods_DreamKatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37F371F007CA45241F39341 /* Pods_DreamKatcher.framework */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +94,8 @@
 		3F6D7B22FC8BA24FC44F4BC5 /* Pods-DreamKatcher-DreamKatcherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamKatcher-DreamKatcherUITests.debug.xcconfig"; path = "Target Support Files/Pods-DreamKatcher-DreamKatcherUITests/Pods-DreamKatcher-DreamKatcherUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DD2A496F340859B62D94051 /* Pods-DreamKatcherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamKatcherTests.release.xcconfig"; path = "Target Support Files/Pods-DreamKatcherTests/Pods-DreamKatcherTests.release.xcconfig"; sourceTree = "<group>"; };
 		9153BBED0F8FC0C8668E7596 /* Pods_DreamKatcherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamKatcherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D924FB424F69104006C341C /* APILib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APILib.swift; sourceTree = "<group>"; };
+		9D924FB724F6912C006C341C /* SASLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SASLogger.swift; sourceTree = "<group>"; };
 		BB4B3B2FF00E5D08752E9876 /* Pods_DreamKatcher_DreamKatcherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamKatcher_DreamKatcherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37F371F007CA45241F39341 /* Pods_DreamKatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DreamKatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44C57CAED802BB7E8008170 /* Pods-DreamKatcherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamKatcherTests.debug.xcconfig"; path = "Target Support Files/Pods-DreamKatcherTests/Pods-DreamKatcherTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,10 +108,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186608ED24ED940B0091EF21 /* Alamofire in Frameworks */,
-				186608F324ED94540091EF21 /* SASLogger in Frameworks */,
-				180F9DEF24EDBEAB00AD1723 /* SDWebImage in Frameworks */,
-				186608F024ED94340091EF21 /* APILib in Frameworks */,
 				B43DDFE80FE847E8ED408319 /* Pods_DreamKatcher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +134,8 @@
 		186608AA24ED92CB0091EF21 = {
 			isa = PBXGroup;
 			children = (
+				9D924FB624F6911D006C341C /* SASLogger */,
+				9D924FB324F690F1006C341C /* APILib */,
 				186608B524ED92CB0091EF21 /* DreamKatcher */,
 				186608CC24ED92D30091EF21 /* DreamKatcherTests */,
 				186608D724ED92D30091EF21 /* DreamKatcherUITests */,
@@ -273,6 +271,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9D924FB324F690F1006C341C /* APILib */ = {
+			isa = PBXGroup;
+			children = (
+				9D924FB424F69104006C341C /* APILib.swift */,
+			);
+			path = APILib;
+			sourceTree = "<group>";
+		};
+		9D924FB624F6911D006C341C /* SASLogger */ = {
+			isa = PBXGroup;
+			children = (
+				9D924FB724F6912C006C341C /* SASLogger.swift */,
+			);
+			path = SASLogger;
+			sourceTree = "<group>";
+		};
 		C6AE2FF8B8DB0320A2F70A80 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,10 +319,6 @@
 			);
 			name = DreamKatcher;
 			packageProductDependencies = (
-				186608EC24ED940B0091EF21 /* Alamofire */,
-				186608EF24ED94340091EF21 /* APILib */,
-				186608F224ED94540091EF21 /* SASLogger */,
-				180F9DEE24EDBEAB00AD1723 /* SDWebImage */,
 			);
 			productName = DreamKatcher;
 			productReference = 186608B324ED92CB0091EF21 /* DreamKatcher.app */;
@@ -386,10 +396,6 @@
 			);
 			mainGroup = 186608AA24ED92CB0091EF21;
 			packageReferences = (
-				186608EB24ED940B0091EF21 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				186608EE24ED94340091EF21 /* XCRemoteSwiftPackageReference "APILib" */,
-				186608F124ED94540091EF21 /* XCRemoteSwiftPackageReference "SASLogger" */,
-				180F9DED24EDBEAB00AD1723 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 186608B424ED92CB0091EF21 /* Products */;
 			projectDirPath = "";
@@ -537,9 +543,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D924FB524F69104006C341C /* APILib.swift in Sources */,
 				180F9DEA24EDAE8C00AD1723 /* DKFeedPagePresenter.swift in Sources */,
 				180F9DE824EDACBE00AD1723 /* StoryboardHelpers.swift in Sources */,
 				1866091F24ED980A0091EF21 /* User.swift in Sources */,
+				9D924FB824F6912C006C341C /* SASLogger.swift in Sources */,
 				180F9DEC24EDBDE300AD1723 /* DKImageViewController.swift in Sources */,
 				180F9DE624EDAAE800AD1723 /* DKFeedViewController.swift in Sources */,
 				1866091524ED97280091EF21 /* NSObject+Ext.swift in Sources */,
@@ -894,64 +902,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		180F9DED24EDBEAB00AD1723 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.8.4;
-			};
-		};
-		186608EB24ED940B0091EF21 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.2.2;
-			};
-		};
-		186608EE24ED94340091EF21 /* XCRemoteSwiftPackageReference "APILib" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AnupSukumaran/APILib.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.6;
-			};
-		};
-		186608F124ED94540091EF21 /* XCRemoteSwiftPackageReference "SASLogger" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AnupSukumaran/SASLogger.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		180F9DEE24EDBEAB00AD1723 /* SDWebImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 180F9DED24EDBEAB00AD1723 /* XCRemoteSwiftPackageReference "SDWebImage" */;
-			productName = SDWebImage;
-		};
-		186608EC24ED940B0091EF21 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 186608EB24ED940B0091EF21 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-		186608EF24ED94340091EF21 /* APILib */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 186608EE24ED94340091EF21 /* XCRemoteSwiftPackageReference "APILib" */;
-			productName = APILib;
-		};
-		186608F224ED94540091EF21 /* SASLogger */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 186608F124ED94540091EF21 /* XCRemoteSwiftPackageReference "SASLogger" */;
-			productName = SASLogger;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 186608AB24ED92CB0091EF21 /* Project object */;
 }

@@ -7,6 +7,9 @@ target 'DreamKatcher' do
 
   # Pods for DreamKatcher
 	pod 'SASLoaderPod'
+  pod 'Alamofire'
+  pod 'SDWebImage'
+  
   target 'DreamKatcherTests' do
     inherit! :search_paths
     # Pods for testing
