@@ -8,8 +8,6 @@
 
 import UIKit
 import Alamofire
-import SASLogger
-import APILib
 
 typealias JSON = [String: AnyObject]
 typealias OJSON = [String : Any?]

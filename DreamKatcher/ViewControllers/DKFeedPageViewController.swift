@@ -8,7 +8,7 @@
 
 import UIKit
 import SASLoaderPod
-import SASLogger
+
 
 protocol FeedPageViewDelegate: class {
     func presentInitialFeed(_ feed: ResultsData)

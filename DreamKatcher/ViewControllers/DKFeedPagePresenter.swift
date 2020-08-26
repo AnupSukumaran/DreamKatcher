@@ -8,7 +8,6 @@
 
 import Foundation
 import AVFoundation
-import SASLogger
 import SASLoaderPod
 
 typealias IndexedFeed = (feed: ResultsData, index: Int)
